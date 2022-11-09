@@ -41,13 +41,52 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
       data-tag="font"
     />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <style data-section-id="dropdown">
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div>
       <link href="./home.css" rel="stylesheet" />
 
-      <div class="home-container"></div>
+      <div class="home-container">
+        <div data-thq="thq-dropdown" class="home-thq-dropdown list-item">
+          <div data-thq="thq-dropdown-toggle" class="home-dropdown-toggle">
+            <span class="home-text">Menu Item</span>
+            <div data-thq="thq-dropdown-arrow" class="home-dropdown-arrow">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path d="M426 726v-428l214 214z"></path>
+              </svg>
+            </div>
+          </div>
+          <ul data-thq="thq-dropdown-list" class="home-dropdown-list">
+            <li data-thq="thq-dropdown" class="home-dropdown list-item">
+              <div data-thq="thq-dropdown-toggle" class="home-dropdown-toggle1">
+                <span class="home-text1">Sub-menu Item</span>
+              </div>
+            </li>
+            <li data-thq="thq-dropdown" class="home-dropdown1 list-item">
+              <div data-thq="thq-dropdown-toggle" class="home-dropdown-toggle2">
+                <span class="home-text2">Sub-menu Item</span>
+              </div>
+            </li>
+            <li data-thq="thq-dropdown" class="home-dropdown2 list-item">
+              <div data-thq="thq-dropdown-toggle" class="home-dropdown-toggle3">
+                <span class="home-text3">Sub-menu Item</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
