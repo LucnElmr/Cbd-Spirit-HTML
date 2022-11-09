@@ -44,6 +44,15 @@
   align-self: stretch;
 }
 
+.navigation-links-root-class-name14 {
+  flex: 0 0 auto;
+  align-self: stretch;
+}
+
+.navigation-links-root-class-name16 {
+  flex: 0 0 auto;
+  align-self: stretch;
+}
 @media(max-width: 1600px) {
   .navigation-links-root-class-name8 {
     margin: 0px;
@@ -52,6 +61,12 @@
     margin: 0px;
   }
   .navigation-links-root-class-name12 {
+    margin: 0px;
+  }
+  .navigation-links-root-class-name14 {
+    margin: 0px;
+  }
+  .navigation-links-root-class-name16 {
     margin: 0px;
   }
 }
