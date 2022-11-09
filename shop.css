@@ -4,7 +4,10 @@
   overflow: auto;
   min-height: 100vh;
   align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
   flex-direction: column;
+  background-image: linear-gradient(to right bottom, #0b2a6b 0%, #e4b6b9 100%);
 }
 .shop-container1 {
   gap: 7.5%;
