@@ -74,7 +74,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #ffffff;
+  background-image: linear-gradient(to right, #bdc3c7 0%, #2c3e50 100%);
 }
 .home-header {
   width: 100%;
@@ -179,6 +179,13 @@
 .home-icon08 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
+}
+.home-image2 {
+  width: auto;
+  height: auto;
+  align-self: center;
+  margin-top: 2%;
+  object-fit: cover;
 }
 @media(max-width: 1600px) {
   .home-header {
