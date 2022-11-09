@@ -4,16 +4,23 @@
   align-items: center;
   flex-direction: row;
 }
+.navigation-links-text {
+  font-size: 20px;
+}
 .navigation-links-text1 {
+  font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text2 {
+  font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text3 {
+  font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
 .navigation-links-text4 {
+  font-size: 20px;
   margin-left: var(--dl-space-space-twounits);
 }
 
@@ -24,7 +31,10 @@
 
 
 
-
+.navigation-links-root-class-name10 {
+  flex: 0 0 auto;
+  align-self: stretch;
+}
 @media(max-width: 1600px) {
   .navigation-links-root-class-name10 {
     margin: 0px;
