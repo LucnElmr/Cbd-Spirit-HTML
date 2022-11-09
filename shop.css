@@ -190,13 +190,14 @@
   height: var(--dl-size-size-xsmall);
 }
 .shop-container2 {
+  gap: 7.5%;
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
-  align-items: flex-start;
   padding-top: 5%;
+  border-radius: var(--dl-radius-radius-radius4);
   padding-bottom: 5%;
   justify-content: center;
 }
@@ -205,19 +206,20 @@
   width: auto;
   display: flex;
   align-items: center;
-  padding-top: 1.5%;
   flex-direction: column;
-  padding-bottom: 1.5%;
   justify-content: center;
 }
 .shop-image2 {
   width: 350px;
   height: 450px;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
 }
 .shop-text {
   font-size: 25px;
   align-self: flex-end;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .shop-text03 {
   font-size: 20px;
@@ -228,44 +230,45 @@
   width: auto;
   display: flex;
   align-items: center;
-  padding-top: 1.5%;
-  padding-left: 7%;
-  padding-right: 7%;
   flex-direction: column;
-  padding-bottom: 1.5%;
   justify-content: center;
 }
 .shop-image3 {
   width: 350px;
   height: 450px;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
 }
 .shop-text06 {
   font-size: 25px;
   align-self: flex-end;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .shop-text09 {
   font-size: 20px;
   align-self: flex-end;
 }
 .shop-container5 {
+  gap: 4%;
   flex: 0 0 auto;
   width: auto;
   display: flex;
   align-items: center;
-  padding-top: 1.5%;
   flex-direction: column;
-  padding-bottom: 1.5%;
   justify-content: center;
 }
 .shop-image4 {
   width: 350px;
   height: 450px;
   object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
 }
 .shop-text12 {
   font-size: 25px;
   align-self: flex-end;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 .shop-text15 {
   font-size: 20px;
