@@ -69,14 +69,14 @@
 .home-header {
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
-  background-color: #ced6a3;
+  background-color: #fdf5e6;
 }
 .home-navlink {
   display: contents;
@@ -97,6 +97,10 @@
 .home-login {
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
+  background-color: #fdf5e6;
+}
+.home-register {
+  background-color: #fdf5e6;
 }
 .home-burger-menu {
   display: none;
