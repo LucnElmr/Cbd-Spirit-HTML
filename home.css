@@ -114,10 +114,12 @@
   font-size: 20px;
   border-width: 0px;
   margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
   background-color: #fdf5e6;
 }
 .home-register {
   font-size: 20px;
+  text-decoration: none;
   background-color: #fdf5e6;
 }
 .home-burger-menu {
